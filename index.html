@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flappy Pixel Man</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <canvas id="game-canvas"></canvas>
+    <div id="start-screen">
+      <h1>Flappy Pixel Man</h1>
+      <p>Press SPACE to jump</p>
+      <button id="start-button">Start Game</button>
+    </div>
+    <div id="game-over-screen">
+      <h2>Game Over</h2>
+      <p>Score: <span id="final-score">0</span></p>
+      <button id="restart-button">Play Again</button>
+    </div>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
